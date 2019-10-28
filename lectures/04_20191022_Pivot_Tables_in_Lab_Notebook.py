@@ -215,3 +215,4 @@ print(results.summary())
 # ## Assignment
 # 
 # 1. Do similar analysis on your own data set
+# 2. Use [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling) to inspect the data set
