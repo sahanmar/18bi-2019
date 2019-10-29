@@ -11,11 +11,10 @@ _October 29 2019_
 ## ...on your own!
 
 1. Pick data set of your choice, some examples:
-   1. [Monthly milk production](https://datamarket.com/data/set/22ox/monthly-milk-production-pounds-per-cow-jan-62-dec-75#!ds=22ox&display=line)
-   2. [CO2 (ppm) mauna loa](https://datamarket.com/data/set/22v1/co2-ppm-mauna-loa-1965-1980#!ds=22v1&display=line)
-   3. [Mean daily temperature, Fisher River near Dallas](https://datamarket.com/data/set/235d/mean-daily-temperature-fisher-river-near-dallas-jan-01-1988-to-dec-31-1991#!ds=235d&display=line)
-   4. [Wisconsin employment time series, trade](https://datamarket.com/data/set/22l8/wisconsin-employment-time-series-trade-jan-1961-oct-1975#!ds=22l8&display=line)
-   5. [Monthly car sales in Quebec 1960-1968](https://datamarket.com/data/set/22n4/monthly-car-sales-in-quebec-1960-1968#!ds=22n4&display=line)
+   1. [Monthly milk production](https://github.com/plotly/datasets/blob/master/monthly-milk-production-pounds.csv)
+   2. [CO2 (ppm) mauna loa](https://datahub.io/core/co2-ppm)
+   3. [Mean daily temperature, Fisher River near Dallas](https://github.com/PacktPublishing/Practical-Time-Series-Analysis/blob/master/Data%20Files/mean-daily-temperature-fisher-river.xlsx)
+   4. [Monthly car sales in Quebec 1960-1968](https://github.com/jbrownlee/Datasets/blob/master/monthly-car-sales.csv)
 2. Load and inspect the data. Remember to take care of missing data, measurements in non-fixes intervals, etc. Pandas provide greate resources for this tasks, see the [time series documentation](https://pandas.pydata.org/pandas-docs/stable/timeseries.html).
 3. Using a model of your choice (e.g. regression analysis, ARIMA, neural networks, ... use Google, chances are it is already implemented in Python) predict a selected time frame and compare result of the model with reality.
 
